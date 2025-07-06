@@ -1,0 +1,92 @@
+# =========================
+# General
+# =========================
+__pycache__/
+*.py[cod]
+*.log
+*.env
+*.env.*
+.envrc
+.env.local
+*.sqlite3
+*.db
+*.DS_Store
+*.swp
+*.bak
+*.tmp
+*.idea/
+.vscode/
+*.tgz
+*.tar.gz
+*.zip
+
+# =========================
+# Python / Django
+# =========================
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+*.pot
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.mo
+media/
+staticfiles/
+static/
+local_settings.py
+.env
+
+# Django migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.vite/
+dist/
+build/
+.cache/
+.eslintcache
+
+# React production build
+/build
+*.log
+
+# dotenv files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Docker
+# =========================
+# Ignore Docker files that may be generated
+docker-compose.override.yml
+.docker/
+*.pid
+
+# Volumes or local mount points
+volumes/
+tmp/
+
+# =========================
+# MySQL
+# =========================
+# Ignore any dumped SQL files
+*.sql
+*.sql.gz
+*.dump
+
+# MySQL socket (if used locally)
+mysql.sock
