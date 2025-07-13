@@ -7,3 +7,12 @@
 
 - npm install axios react-router-dom @mui/material @emotion/react @emotion/styled @mui/icons-material
 
+- python -c "import secrets; print(secrets.token_urlsafe(50))"
+
+- docker-compose up --build
+
+- docker-compose exec backend python manage.py makemigrations
+
+- docker-compose exec backend python manage.py migrate
+
+- docker-compose exec backend python manage.py createsuperuser
